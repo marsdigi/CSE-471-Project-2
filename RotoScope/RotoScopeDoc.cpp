@@ -69,6 +69,9 @@ CRotoScopeDoc::CRotoScopeDoc()
 	m_bird.LoadFile(L"birdp.png");
 
 	//OnEditSetvariables();
+
+	// Set Profile
+	m_moviemake.SetProfileName(L"profile720p.prx");
 }
 
 //! Destructor
